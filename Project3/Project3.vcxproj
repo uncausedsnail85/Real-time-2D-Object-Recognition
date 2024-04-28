@@ -129,13 +129,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryProcessing.cpp" />
+    <ClCompile Include="driverFunctions.cpp" />
+    <ClCompile Include="featureExtraction.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="segmentation.cpp" />
+    <ClCompile Include="imageProcessing.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryProcessing.h" />
-    <ClInclude Include="segmentation.h" />
+    <ClInclude Include="driverFunctions.h" />
+    <ClInclude Include="featureExtraction.h" />
+    <ClInclude Include="imageProcessing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

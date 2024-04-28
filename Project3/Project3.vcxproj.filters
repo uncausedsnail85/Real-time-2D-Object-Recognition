@@ -18,18 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryProcessing.cpp">
+    <ClCompile Include="imageProcessing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="segmentation.cpp">
+    <ClCompile Include="driverFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="featureExtraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryProcessing.h">
+    <ClInclude Include="imageProcessing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="segmentation.h">
+    <ClInclude Include="driverFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featureExtraction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
